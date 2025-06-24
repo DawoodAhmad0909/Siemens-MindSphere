@@ -93,8 +93,8 @@ WHERE TIMESTAMPDIFF(MONTH,last_calibration,CURDATE())>6
 ORDER BY Duration DESC;
 
 SELECT * FROM devices 
-WHERE LOWER(location) LIKE '%Warehouse%'
-	OR LOWER(location) LIKE '%Storage%';
+WHERE LOWER(location) LIKE '%warehouse%'
+	OR LOWER(location) LIKE '%storage%';
     
 SELECT * FROM device_alerts
 WHERE resolved=FALSE 
