@@ -1,0 +1,3 @@
+alert_id,device_id,timestamp,alert_type,severity,resolved,description
+1,THM-101,"2023-08-01 14:30:45","High Temperature",Critical,0,"Temperature exceeded 40°C (Threshold: 38°C)"
+6,GAS-612,"2023-08-03 13:22:10","Methane Leak",Critical,0,"CH4 concentration at 2.5% LEL"

@@ -96,8 +96,8 @@ ORDER BY Duration DESC;
 
 -- 3. Find devices located in 'Warehouse' or 'Storage' areas.
 SELECT * FROM devices 
-WHERE location LIKE '%Warehouse%'
-	OR location LIKE '%Storage%';
+WHERE LOWER(location) LIKE '%Warehouse%'
+	OR LOWER(location) LIKE '%Storage%';
     
 -- 4. Display all unresolved critical alerts with their timestamps.
 SELECT * FROM device_alerts
@@ -137,7 +137,7 @@ WHERE d.status='Maintenance'
 
 -- 9. Calculate the average time between device calibration and first alert.
 SELECT 
-    AVG(TIMESTAMPDIFF(DAY,d.last_calibration,a.first_alert_time)) AS Average_time_between_calibrations
+    ROUND(AVG(TIMESTAMPDIFF(DAY,d.last_calibration,a.first_alert_time)),2) AS Average_time_between_calibrations
 FROM devices d
 JOIN (
 	SELECT device_id,MIN(timestamp) AS first_alert_time
@@ -148,8 +148,8 @@ ON d.device_id=a.device_id;
     
 -- 10. Find alerts where the description contains 'threshold' or 'spike'.
 SELECT * FROM device_alerts
-WHERE description LIKE '%threshold%' 
-	OR description LIKE '%spike%';
+WHERE LOWER(description) LIKE '%threshold%' 
+	OR LOWER(description) LIKE '%spike%';
     
 -- 11. List devices that have both high and critical severity alerts.
 SELECT d.* 

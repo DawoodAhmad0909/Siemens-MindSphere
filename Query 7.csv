@@ -1,0 +1,3 @@
+device_id,device_name,location,device_type,status,last_calibration,alert_id,device_id,timestamp,alert_type,severity,resolved,description
+GAS-612,"Methane Detector","Storage Room 5",Safety,Faulty,2023-03-18,6,GAS-612,"2023-08-03 13:22:10","Methane Leak",Critical,0,"CH4 concentration at 2.5% LEL"
+LGT-808,"Light Intensity Sensor","Outdoor Parking",Environmental,Inactive,2023-02-14,8,LGT-808,"2023-08-04 18:45:29","Sensor Offline",Low,0,"No data received for 24+ hours"

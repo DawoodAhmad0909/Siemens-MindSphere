@@ -1,0 +1,3 @@
+alert_id,device_id,timestamp,alert_type,severity,resolved,description
+1,THM-101,"2023-08-01 14:30:45","High Temperature",Critical,0,"Temperature exceeded 40°C (Threshold: 38°C)"
+4,PWR-409,"2023-08-02 11:03:17","Power Surge",Critical,1,"Voltage spike to 250V (Normal: 220V±5%)"

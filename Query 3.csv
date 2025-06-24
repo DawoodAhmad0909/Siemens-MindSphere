@@ -1,0 +1,3 @@
+device_id,device_name,location,device_type,status,last_calibration
+GAS-612,"Methane Detector","Storage Room 5",Safety,Faulty,2023-03-18
+THM-101,"Temperature/Humidity Sensor","Warehouse Zone A",Environmental,Active,2023-05-15

@@ -1,0 +1,2 @@
+device_id,device_name,location,device_type,status,last_calibration,alert_id,device_id,timestamp,alert_type,severity,resolved,description
+FLW-307,"Water Flow Meter","Cooling System Pipe 12B",Hydraulic,Maintenance,2023-04-22,3,FLW-307,"2023-08-02 08:45:22","Zero Flow Detected",Medium,0,"No water flow for 2+ hours"

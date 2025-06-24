@@ -1,0 +1,7 @@
+alert_id,device_id,timestamp,alert_type,severity,resolved,description
+5,VIB-503,"2023-08-03 09:30:55","Abnormal Vibration",High,0,"Vibration reached 0.15g (Normal: <0.05g)"
+6,GAS-612,"2023-08-03 13:22:10","Methane Leak",Critical,0,"CH4 concentration at 2.5% LEL"
+7,PRS-704,"2023-08-04 10:15:38","Low Pressure",Medium,1,"Pressure dropped to 2.3 bar (Min: 2.5 bar)"
+8,LGT-808,"2023-08-04 18:45:29","Sensor Offline",Low,0,"No data received for 24+ hours"
+9,DRN-906,"2023-08-05 02:30:44","Door Forced Open",High,1,"Unauthorized access during non-working hours"
+10,CAM-017,"2023-08-05 07:22:16","Motion Detected",Low,0,"Continuous motion in restricted area"

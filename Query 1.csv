@@ -1,0 +1,8 @@
+device_id,device_name,location,device_type,status,last_calibration
+THM-101,"Temperature/Humidity Sensor","Warehouse Zone A",Environmental,Active,2023-05-15
+VIB-503,"Vibration Sensor","Conveyor Belt Motor",Mechanical,Active,2023-05-30
+CAM-017,"Surveillance Camera","Loading Dock",Security,Active,2023-06-05
+AQI-205,"Air Quality Monitor","Factory Floor - North",Pollution,Active,2023-06-10
+PRS-704,"Pressure Gauge","Boiler System",Hydraulic,Active,2023-06-25
+PWR-409,"Energy Monitor","Main Electrical Panel 3",Electrical,Active,2023-07-01
+DRN-906,"Door Contact Sensor","Main Entrance",Security,Active,2023-07-12

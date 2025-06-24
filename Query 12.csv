@@ -1,0 +1,11 @@
+device_type,alert_type,alert_count
+Electrical,"Power Surge",1
+Environmental,"High Temperature",1
+Environmental,"Sensor Offline",1
+Hydraulic,"Zero Flow Detected",1
+Hydraulic,"Low Pressure",1
+Mechanical,"Abnormal Vibration",1
+Pollution,"PM2.5 Spike",1
+Safety,"Methane Leak",1
+Security,"Door Forced Open",1
+Security,"Motion Detected",1

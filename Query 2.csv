@@ -1,0 +1,11 @@
+device_id,device_name,location,device_type,status,last_calibration,Duration
+LGT-808,"Light Intensity Sensor","Outdoor Parking",Environmental,Inactive,2023-02-14,28
+GAS-612,"Methane Detector","Storage Room 5",Safety,Faulty,2023-03-18,27
+FLW-307,"Water Flow Meter","Cooling System Pipe 12B",Hydraulic,Maintenance,2023-04-22,26
+THM-101,"Temperature/Humidity Sensor","Warehouse Zone A",Environmental,Active,2023-05-15,25
+AQI-205,"Air Quality Monitor","Factory Floor - North",Pollution,Active,2023-06-10,24
+CAM-017,"Surveillance Camera","Loading Dock",Security,Active,2023-06-05,24
+VIB-503,"Vibration Sensor","Conveyor Belt Motor",Mechanical,Active,2023-05-30,24
+DRN-906,"Door Contact Sensor","Main Entrance",Security,Active,2023-07-12,23
+PRS-704,"Pressure Gauge","Boiler System",Hydraulic,Active,2023-06-25,23
+PWR-409,"Energy Monitor","Main Electrical Panel 3",Electrical,Active,2023-07-01,23
