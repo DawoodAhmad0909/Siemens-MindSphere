@@ -75,8 +75,8 @@ ORDER BY Duration DESC;
 #### 3. Find devices located in 'Warehouse' or 'Storage' areas.
 ``` sql
 SELECT * FROM devices 
-WHERE LOWER(location) LIKE '%Warehouse%'
-        OR LOWER(location) LIKE '%Storage%';
+WHERE LOWER(location) LIKE '%warehouse%'
+        OR LOWER(location) LIKE '%storage%';
 ```
 #### 4. Display all unresolved critical alerts with their timestamps.
 ``` sql
